@@ -133,3 +133,15 @@ REST_FRAMEWORK = {
         'rest_framework.authentication.BasicAuthentication',
     ),
 }
+
+
+# curl -X POST -d "content={username=tomvictor&password=a9995060098}" http://127.0.0.1:8000/gettoken
+
+# working
+# curl -X POST -H "Content-Type: application/json" -d '{"username":"tomvictor","password":"a9995060098"}' http://127.0.0.1:8000/gettoken/
+
+# my token
+# {"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6IiIsImV4cCI6MTUxNTYxMTc3NCwidXNlcl9pZCI6MSwidXNlcm5hbWUiOiJ0b212aWN0b3IifQ.2s-F4yo_6Pzgcf3QdKd0fy0V8qCr66HOxkanCbP59wI"}
+
+# curl -H "Authorization: JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6IiIsImV4cCI6MTUxNTYxMTc3NCwidXNlcl9pZCI6MSwidXNlcm5hbWUiOiJ0b212aWN0b3IifQ.2s-F4yo_6Pzgcf3QdKd0fy0V8qCr66HOxkanCbP59wI" http://127.0.0.1:8000/api/?format=json
+

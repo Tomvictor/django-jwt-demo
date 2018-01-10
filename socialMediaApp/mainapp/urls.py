@@ -14,6 +14,5 @@ router.register(r'college', views.CollegeViewSet)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('get-token/', obtain_jwt_token),
     path('',views.CollegeViewSet.as_view())
 ]
