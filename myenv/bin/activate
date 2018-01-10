@@ -40,7 +40,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/Users/tomvictor/Bitbucket/django-jwt-demo/myenv"
+VIRTUAL_ENV="/Users/tomvictor/GitHub/django-jwt-demo/myenv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

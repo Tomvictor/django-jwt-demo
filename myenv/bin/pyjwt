@@ -1,4 +1,4 @@
-#!/Users/tomvictor/Bitbucket/django-jwt-demo/myenv/bin/python3
+#!/Users/tomvictor/GitHub/django-jwt-demo/myenv/bin/python3
 
 # -*- coding: utf-8 -*-
 import re

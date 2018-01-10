@@ -1,4 +1,4 @@
-#!/Users/tomvictor/Bitbucket/django-jwt-demo/myenv/bin/python
+#!/Users/tomvictor/GitHub/django-jwt-demo/myenv/bin/python
 
 import sys
 import getopt
